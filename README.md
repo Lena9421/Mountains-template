@@ -1,2 +1,2 @@
 # Mountains-template
-landing 
+PSD: http://freepsd.ws/besplatnyj-psd-mountains-landing-page/

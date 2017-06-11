@@ -205,6 +205,8 @@ width: 150px;
 .journal-container {
   max-width: 1170px;
   margin: 0 auto;
+  padding: 42px 15px 90px;
+
 }
 .journal-container h2 {
   font-size: 1.7rem;
@@ -221,11 +223,10 @@ width: 150px;
 }
 .articles {
 height: 760px;
-width: 97.5%;
+width: 100%;
 position: relative;
 text-align: center;
 box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-
 }
 
 .article {
@@ -251,13 +252,13 @@ font-size: 1rem;
   letter-spacing: 0.1em;
   color: #212121;
 }
+
 .article p {
   padding: 0 50px;
   height: 7.5em;
   overflow: hidden;
-
-
 }
+
 .article-first {
   height: 50%;
   width: 760px;
@@ -279,6 +280,7 @@ font-size: 1rem;
   bottom: 0;
   left: 0;
 }
+
 .article-second img {
   position: absolute;
   top: 0;
@@ -353,5 +355,80 @@ font-size: 1rem;
 
 .article-third .label::before{
   top: 25%;
+}
+
+.order {
+  background-image: url(../images/order-bg.jpg);
+  background-color: #f6f4f4;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.order-container {
+  max-width: 1170px;
+  padding: 146px 15px 90px;
+  margin: 0 auto;
+  min-height: 650px;
+}
+.order-title {
+  text-align: left;
+  background-position: 0 0;
+  font-size: 1.25rem;
+  padding-top: 42px;
+  background-image: url(images/snake.png);
+}
+
+.order-lead {
+  font-size: 1rem;
+}
+.order-form {
+  background-color: #fff;
+  border: 3px solid #fff;
+  border-radius: 4px;
+  margin: 8px 0 16px;
+  display: inline-block;
+  font-size: 1rem;
+  position: relative;
+}
+
+.separator {
+  border-left: 1px solid #fafafa;
+  border-right: 1px solid #edebeb;
+  vertical-align: top;
+  height: 35px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.order-btn {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 16px;
+  top: 1px;
+
+}
+
+.order-input {
+  padding: 16px;
+  vertical-align: top;
+  border: 0;
+  width: 295px;
+  font-size: inherit;
+  color: #212121;
+  line-height: inherit;
+}
+.order-info {
+  background-image: url(images/lock.png);
+  color: #36aeea;
+  background-repeat: no-repeat;
+  background-position: 1px 50%;
+  padding-left: 27px;
+}
+.order {
+  background-image: url(images/order-bg.jpg);
+ 
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
 }
 
