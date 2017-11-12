@@ -142,7 +142,7 @@ ol {
 
 .header {
     color: #fff;
-    background-image: url(images/header.jpg);
+    background-image: url(../images/header.jpg);
     background-repeat: no-repeat;
     background-position: 50% 0;
 }
@@ -195,7 +195,7 @@ ol {
 }
 .about {
     background-color: #f6f4f4;
-    background-image: url(images/about-bg.png);
+    background-image: url(../images/about-bg.png);
     background-repeat: no-repeat;
     background-position: 50% 23px;
 }
@@ -259,7 +259,7 @@ ol {
     text-transform: uppercase;
 
     color: #212121;
-    background-image: url(images/snake.png);
+    background-image: url(../images/snake.png);
     background-repeat: no-repeat;
     background-position: 50% 0;
 }
@@ -379,7 +379,7 @@ ol {
     left: 15%;
 }
 .label-love::before {
-    background-image: url(images/label-love.png);
+    background-image: url(../images/label-love.png);
 }
 .label::before {
     position: absolute;
@@ -399,13 +399,13 @@ ol {
     left: 25%;
 }
 .label-tree::before {
-    background-image: url(images/label-tree.png);
+    background-image: url(../images/label-tree.png);
 }
 .article-second .label::before {
     left: 75%;
 }
 .label-water::before {
-    background-image: url(images/label-water.png);
+    background-image: url(../images/label-water.png);
 }
 .article-third .label::before {
     top: 25%;
@@ -429,7 +429,7 @@ ol {
 
     text-align: left;
 
-    background-image: url(images/snake.png);
+    background-image: url(../images/snake.png);
     background-position: 0 0;
 }
 .order-lead {
@@ -482,12 +482,12 @@ ol {
     padding-left: 27px;
 
     color: #36aeea;
-    background-image: url(images/lock.png);
+    background-image: url(../images/lock.png);
     background-repeat: no-repeat;
     background-position: 1px 50%;
 }
 .order {
-    background-image: url(images/order-bg.jpg);
+    background-image: url(../images/order-bg.jpg);
     background-repeat: no-repeat;
     background-position: 50% 100%;
 }
